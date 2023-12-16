@@ -64,7 +64,7 @@ The **model** should be saved inside `models/model.pt`. Now you can use it for i
 python main.py
 ```
 
-### Model architecture
+### 🌐 Model architecture
 ![model](https://github.com/d1pankarmedhi/attention-transformers/assets/136924835/eae08797-1888-42c9-93d4-99f95028657c)
 
 ## 🤝 Acknowledgments
