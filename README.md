@@ -1,4 +1,10 @@
-# Attention Transformers
+<div align="center">
+<h1>Attention Transformers</h1>
+
+![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![pytorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+
+</div>
 
 Language model train/inference scripts written in Pytorch using a self-attention mechanism for text generation.
 
