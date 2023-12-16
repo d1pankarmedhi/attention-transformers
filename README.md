@@ -2,13 +2,13 @@
 
 Language model train/inference scripts written in Pytorch using a self-attention mechanism for text generation.
 
-```
 This project currently showcases the ability of transformer architecture to generate characters for text generation. To do so, we are using news headlines data for training. 
 
 The final model should be able to generate random news headlines.
-```
 
-🏗️ Here's what the training data looks like.
+
+### 🏗️ Training Data
+
 ```yaml
 # data.txt
 Natalee Holloway's suspected killer, Joran van der Sloot, admits to crime, says mother
@@ -57,3 +57,4 @@ The **model** should be saved inside `models/model.pt`. Now you can use it for i
 # run the `main.py` script for text generation.
 python main.py
 ```
+
