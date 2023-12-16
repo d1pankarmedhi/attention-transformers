@@ -64,3 +64,7 @@ The **model** should be saved inside `models/model.pt`. Now you can use it for i
 python main.py
 ```
 
+## 🤝 Acknowledgments
+
+I would like to express my gratitude to the following individuals and projects for inspiration.
+- Andrej Karpathy's [nanoGPT](https://github.com/karpathy/nanoGPT)
