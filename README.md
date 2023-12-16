@@ -1,2 +1,4 @@
-# attention-transformers
-Language model training &amp; inference for text generation with transformers using pytorch
+# Attention Transformers
+
+Language model train/inference scripts written in pytorch using self-attention mechanism for text generation.
+
