@@ -8,6 +8,8 @@
 
 Language model train/inference scripts written in Pytorch using a self-attention mechanism for text generation.
 
+## Text Generation with Decoder Model
+
 This project currently showcases the ability of transformer architecture to generate characters for text generation. To do so, we are using news headlines data for training. 
 
 The final model should be able to generate random news headlines.
@@ -64,8 +66,37 @@ The **model** should be saved inside `models/model.pt`. Now you can use it for i
 python main.py
 ```
 
+### 🗒️ Sample output
+
+**Training Parameters**:
+```yaml
+# Trained on a T4 GPU
+epochs = 5000
+batch_size = 32
+n_embd or d_model = 256
+parameters = 6.403185 M 
+
+# loss
+val_loss = 1.6990
+```
+
+**Generate Text**:
+```text
+Restrictions of volkay may be set to end his finds
+Philippine prices earn to Gaza Student and talks with the world
+Ball for braces in car car shopping as govt
+Formula One to Americans Town Water Tadmil New Paper
+India's ready former PM Sunhila 208 2023 ads Arid Lespeed on Humanity
+Argentina votes Tesla Eras stripped on half a ban piece
+```
+
+Even though the output doesn't make any sense, the fact that the model was able to generate such text which looks similar to news headlines with just 5000 iterations and 6M parameters is extraordinary. 
+
+With some hyperparameter tuning, the accuracy is sure to rise and the model will be able to generate some great results.
+
+<!-- 
 ### 🌐 Model architecture
-![model](https://github.com/d1pankarmedhi/attention-transformers/assets/136924835/eae08797-1888-42c9-93d4-99f95028657c)
+![model](https://github.com/d1pankarmedhi/attention-transformers/assets/136924835/eae08797-1888-42c9-93d4-99f95028657c) -->
 
 ## 🤝 Acknowledgments
 
